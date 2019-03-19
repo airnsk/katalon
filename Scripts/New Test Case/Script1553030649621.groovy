@@ -33,5 +33,3 @@ WebUI.click(findTestObject('Object Repository/Page_Sign in  Katalon Studio/input
 
 WebUI.closeBrowser()
 
-WebUI.executeJavaScript('alert(\'dfsfsdf\');', [])
-

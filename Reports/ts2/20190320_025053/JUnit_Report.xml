@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts2" time="24" tests="1" failures="1" errors="0">
+   <testsuite name="ts2" tests="1" failures="1" errors="0" time="24" timestamp="2019-03-20 02:50:56" hostname="alex - 192.168.1.6" id="Test Suites/ts2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alex/git/katalon1/Reports/ts2/20190320_025053"/>
+         <property name="logFiles" value="/Users/alex/git/katalon1/Reports/ts2/20190320_025053/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alex - 192.168.1.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="76b564f732780ad5b5ad95725a7c5ca9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-03-20 02:50:56 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more
+
+
+2019-03-20 02:50:57 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-20 02:50:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-20 02:50:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-20 02:51:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-20 02:51:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.katalon.com/"): Navigate to 'https://www.katalon.com/' successfully
+
+2019-03-20 02:51:03 - [MESSAGE][PASSED] - Navigate to 'https://www.katalon.com/' successfully
+
+2019-03-20 02:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login")): Object: 'Object Repository/Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login' is clicked on
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login' is clicked on
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email"), "zczczxxc"): Text 'zczczxxc' is set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email'
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Text 'zczczxxc' is set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email'
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_pass"), "DaCdzj5S/qg="): Text ****** has been set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_pass'
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_pass'
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn")): Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn")): Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn")): Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-20 02:51:05 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-20 02:51:05 - [TEST_STEP][FAILED] - executeJavaScript("alert('dfsfsdf');", []): executeJavaScript("alert('dfsfsdf');", []) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more
+
+
+2019-03-20 02:51:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-03-20 02:51:05 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more
+)
+
+2019-03-20 02:51:05 - [MESSAGE][FAILED] - executeJavaScript("alert('dfsfsdf');", []) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-03-20 02:50:56 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="PASSED">
+         <system-out><![CDATA[2019-03-20 02:51:05 - [TEST_CASE][PASSED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1)
+
+2019-03-20 02:51:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-20 02:51:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-20 02:51:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-20 02:51:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.katalon.com/"): Navigate to 'https://www.katalon.com/' successfully
+
+2019-03-20 02:51:09 - [MESSAGE][PASSED] - Navigate to 'https://www.katalon.com/' successfully
+
+2019-03-20 02:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login")): Object: 'Object Repository/Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login' is clicked on
+
+2019-03-20 02:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login' is clicked on
+
+2019-03-20 02:51:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in  Katalon Studio/input_Enter your details below_user_email"), "zzzd"): Text 'zzzd' is set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email'
+
+2019-03-20 02:51:10 - [MESSAGE][PASSED] - Text 'zzzd' is set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email'
+
+2019-03-20 02:51:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in  Katalon Studio/input_Enter your details below_user_pass"), "1rPGswz8OIQ="): Text ****** has been set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_pass'
+
+2019-03-20 02:51:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_pass'
+
+2019-03-20 02:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in  Katalon Studio/input_Remember me_login-btn")): Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Studio/input_Remember me_login-btn' is clicked on
+
+2019-03-20 02:51:10 - [TEST_STEP][PASSED] - get = org/get).openConnection(): null
+
+2019-03-20 02:51:10 - [TEST_STEP][PASSED] - getRC = get.getResponseCode(): null
+
+2019-03-20 02:51:11 - [TEST_STEP][PASSED] - println(getRC): null
+
+2019-03-20 02:51:11 - [TEST_STEP][PASSED] - if (getRC.equals(200)): null
+
+2019-03-20 02:51:11 - [TEST_STEP][PASSED] - println(getInputStream().getText()): null
+
+2019-03-20 02:51:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-03-20 02:51:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-20 02:51:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in  Katalon Studio/input_Enter your details below_user_email"), "200000"): Text '200000' is set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email'
+
+2019-03-20 02:51:21 - [MESSAGE][PASSED] - Text '200000' is set on object 'Object Repository/Page_Sign in  Katalon Studio/input_Enter your details below_user_email']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-20 02:50:56 - [TEST_SUITE][FAILED] - ts2: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-03-20 02:50:56 - [TEST_SUITE][FAILED] - ts2: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553039453842.run(TempTestSuite1553039453842.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'alexs-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce3:766a:6201:4e09%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:632)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:617)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:603)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:36)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at Script1553030649621.run(Script1553030649621.groovy:36)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

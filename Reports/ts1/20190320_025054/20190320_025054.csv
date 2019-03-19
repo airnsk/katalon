@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ts1,Chrome 72.0.3626.121,,2019-03-20 02:50:57,2019-03-20 02:51:15,18.194s,PASSED
+,,,,,,
+Test Cases/New Test Case (1),Chrome 72.0.3626.121,,2019-03-20 02:50:57,2019-03-20 02:51:15,17.825s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-20 02:50:57,2019-03-20 02:50:59,2.181s,PASSED
+"navigateToUrl(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-20 02:50:59,2019-03-20 02:51:02,2.415s,PASSED
+"click(findTestObject(""Page_Katalon Studio Simplify API Web Mobile Automation Tests/a_Login""))",Chrome 72.0.3626.121,,2019-03-20 02:51:02,2019-03-20 02:51:04,1.726s,PASSED
+"setText(findTestObject(""Page_Sign in  Katalon Studio/input_Enter your details below_user_email""), ""zzzd"")",Chrome 72.0.3626.121,,2019-03-20 02:51:04,2019-03-20 02:51:04,0.143s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in  Katalon Studio/input_Enter your details below_user_pass""), ""1rPGswz8OIQ="")",Chrome 72.0.3626.121,,2019-03-20 02:51:04,2019-03-20 02:51:04,0.142s,PASSED
+"click(findTestObject(""Page_Sign in  Katalon Studio/input_Remember me_login-btn""))",Chrome 72.0.3626.121,,2019-03-20 02:51:04,2019-03-20 02:51:04,0.077s,PASSED
+get = org/get).openConnection(),Chrome 72.0.3626.121,,2019-03-20 02:51:04,2019-03-20 02:51:04,0.012s,PASSED
+getRC = get.getResponseCode(),Chrome 72.0.3626.121,,2019-03-20 02:51:04,2019-03-20 02:51:05,0.576s,PASSED
+println(getRC),Chrome 72.0.3626.121,,2019-03-20 02:51:05,2019-03-20 02:51:05,0.004s,PASSED
+if (getRC.equals(200)),Chrome 72.0.3626.121,,2019-03-20 02:51:05,2019-03-20 02:51:05,0.014s,PASSED
+delay(10),Chrome 72.0.3626.121,,2019-03-20 02:51:05,2019-03-20 02:51:15,10.025s,PASSED
+"setText(findTestObject(""Page_Sign in  Katalon Studio/input_Enter your details below_user_email""), ""200000"")",Chrome 72.0.3626.121,,2019-03-20 02:51:15,2019-03-20 02:51:15,0.097s,PASSED
